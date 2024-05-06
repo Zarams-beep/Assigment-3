@@ -1,0 +1,125 @@
+.header-main {
+  background-image: linear-gradient(black, darkslategray);
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 86%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-main .name {
+  width: 100%;
+  margin-left: 15px;
+}
+.header-main .name a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: 2px 2px gray;
+}
+.header-main .main-input {
+  width: 250%;
+  display: flex;
+  margin-right: 30px;
+}
+.header-main .main-input input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 90px;
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+}
+.header-main .main-input input::-moz-placeholder {
+  font-size: 1.2rem;
+}
+.header-main .main-input input::placeholder {
+  font-size: 1.2rem;
+}
+.header-main .main-input input:focus {
+  outline: 2px solid darkslategray;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.header-main .main-input button {
+  padding: 8px 8px;
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.header-main .main-input button img {
+  width: 40px;
+}
+.header-main .cart-shopping {
+  display: flex;
+  align-items: center;
+}
+.header-main .cart-shopping img {
+  width: 30%;
+}
+.header-main .cart-shopping p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.body-main {
+  background-color: #FFFFF0;
+  margin: 0;
+}
+.body-main .first-list {
+  margin-top: 6.7%;
+  margin-left: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+.body-main .first-list .main-food1 {
+  margin-bottom: 2%;
+}
+.body-main .first-list .main-food1 img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.body-main .first-list .main-food1 .food-name {
+  font-size: 1.5rem;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.body-main .first-list .main-food1 .store-it {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body-main .first-list .main-food1 .store-it .food-price {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2%;
+  margin-top: 0;
+}
+.body-main .first-list .main-food1 .store-it #quantity-dropdown {
+  margin-right: 2%;
+  font-size: 1rem;
+  padding: 1% 1%;
+}
+.body-main .first-list .main-food1 button {
+  padding: 3% 15%;
+  text-align: center;
+  margin-left: 30%;
+  border: none;
+  border-radius: 8%;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: darkslategray;
+  box-shadow: 1px 1px 2px black;
+}/*# sourceMappingURL=main.css.map */

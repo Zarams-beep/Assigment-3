@@ -1,0 +1,141 @@
+body {
+  background-image: linear-gradient(black, darkslategray);
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+body h1, body .theme {
+  color: white;
+  position: fixed;
+  left: 35%;
+}
+body h1 {
+  font-size: 10rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0;
+  top: 6%;
+  text-shadow: 2px 2px gray;
+}
+body .theme {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  top: 40%;
+}
+body .orderChoice {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 15%;
+  gap: 0px;
+}
+body .orderChoice .first, body .orderChoice .second, body .orderChoice .first1 {
+  margin-top: 14%;
+}
+body .orderChoice img {
+  width: 24vw;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 0;
+  padding-left: 0;
+  border: none;
+  border-top-right-radius: 30%;
+  margin-right: 0;
+}
+body .orderChoice .second img {
+  width: 24vw;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 0;
+  padding-left: 0;
+  border: none;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 40%;
+  margin-right: 0;
+}
+body .orderChoice .second .floating1 {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 40%;
+  background-color: rgb(169, 161, 161);
+  padding: 0.8% 2%;
+  border: none;
+  border-radius: 3px;
+  opacity: 0;
+}
+body .orderChoice .second .floating1:hover {
+  opacity: 2;
+}
+body .orderChoice .first .floating {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 15%;
+  background-color: rgb(169, 161, 161);
+  padding: 0.8% 2%;
+  border: none;
+  border-radius: 3px;
+  opacity: 0;
+}
+body .orderChoice .first .floating:hover {
+  opacity: 2;
+}
+body .orderChoice .first1 img {
+  width: 24vw;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 0;
+  padding-left: 0;
+  border: none;
+  border-top-right-radius: 40%;
+  margin-right: 0;
+}
+body .orderChoice .first1 .floating3 {
+  position: absolute;
+  color: white;
+  top: 30%;
+  right: 5%;
+  background-color: rgb(169, 161, 161);
+  padding: 0.8% 2%;
+  border: none;
+  border-radius: 3px;
+  opacity: 0;
+}
+body .orderChoice .first1 .floating3:hover {
+  opacity: 2;
+}
+body .orderChoice .floating2 {
+  position: absolute;
+  color: white;
+  top: 30%;
+  right: 30%;
+  background-color: rgb(169, 161, 161);
+  padding: 0.8% 2%;
+  border: none;
+  border-radius: 3px;
+  opacity: 0;
+}
+body .orderChoice .floating2:hover {
+  opacity: 2;
+}
+body .contact-us {
+  position: fixed;
+  color: white;
+  top: 10%;
+  left: 0;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 6px 10px;
+}
+body .contact-us a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=index.css.map */

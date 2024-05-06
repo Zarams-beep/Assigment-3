@@ -1,0 +1,45 @@
+body {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #FFFFF0;
+  margin: 0;
+  color: black;
+}
+body main img {
+  width: 50%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main h1 {
+  font-size: 6rem;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  background-image: linear-gradient(black, darkslategray);
+  color: white;
+  padding: 1% 2%;
+  border: none;
+  border-radius: 2%;
+}
+body main section {
+  position: absolute;
+  top: 30%;
+  right: 8%;
+  border: none;
+}
+body main section li {
+  padding-bottom: 1.5%;
+  font-size: 2rem;
+}
+body footer {
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  font-size: 2rem;
+  font-style: italic;
+  transform: perspective(200px) rotateY(25deg);
+}/*# sourceMappingURL=contact.css.map */
